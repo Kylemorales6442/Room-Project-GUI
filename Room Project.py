@@ -5,52 +5,7 @@
 ###########################################################################################
 from Tkinter import *           
 
-class ExitL(object):
-	
-	def __init__(self, room, locked = "False"):
-		self.room = room
-		self.locked = locked
-		
-	@property
-	def room(self):
-		return self._room
-		
-	@room.setter
-	def room(self, value):
-		self._room = value
-		
-	@property
-	def locked(self):
-		return self._locked
-		
-	@locked.setter
-	def locked(self, value):
-		self._locked = value
-		
-class ItemL(self, desc, usage):
 
-	def __init__(self, desc, usage):
-		
-		self.desc = desc
-		self.usage = usage
-		
-	@property
-	def desc(self):
-		return self._desc
-		
-	@room.setter
-	def desc(self, value):
-		self._desc = value
-		
-	@property
-	def usage(self):
-		return self._usage
-		
-	@locked.setter
-	def usage(self, value):
-		self._usage = value
-		
-	
 # the room class
 # note that this class is fully implemented with dictionaries as illustrated in the lesson "More on Data Structures"
 class Room(object):
